@@ -45,51 +45,51 @@ function Killfeed:CreateKillStrings()
     self.no_killer_msg = {
         [DamageEntity.None] = { 
             "%s died of an unknown cause!",
-            "%s had a heart-attack!",
-            "%s passed away of natural causes!"
+            "%s fell to his death!",
+            "%s died of drowning!"
         },
 
         [DamageEntity.Physics] = { 
-            "%s was killed by the awesome power of physics!",
-            "%s hit something - fatally!",
-            "%s learnt that the laws of physics hate them!"
+            "%s fell to his death!",
+            "%s hit something and died!",
+            "%s forgot his parachute!"
         },
 
         [DamageEntity.Bullet] = { 
-            "%s was gunned down!",
-            "%s was fatally shot!",
-            "%s died of lead poisoning!"
+            "%s was shot down!",
+            "%s was dangerously shot!",
+            "%s died of bullet shots!"
         },
 
         [DamageEntity.Explosion] = { 
-            "%s couldn't withstand the power of EXPLOSIONS!",
-            "%s was explosively fragmented!",
-            "%s will have to be glued back together. IN HELL!"
+            "%s couldn't survive the power of EXPLOSIONS!",
+            "%s has  explosively died!",
+            "%s has exploded IN HELL!"
         },
 		[DamageEntity.Vehicle] = {
 			"%s forgot to put their seatbelt on!",
-			"%s got hit by a vehicle!",
-			"%s faked their driver's license!"
+			"%s got ran over by a vehicle!",
+			"%s invalidated their driver's license!"
 		}
     }
 
     self.killer_msg = {
         [DamageEntity.None] = { 
             "%s was somehow killed by %s!",
-            "%s was touched by the magic of %s!",
-            "%s felt the power of the impossible from %s!"
+            "%s was killed by the magic of %s!",
+            "%s felt the power of %s!"
         },
 
         [DamageEntity.Physics] = { 
-            "%s couldn't handle the physical power of %s!",
-            "%s suffered massive physical trauma at the hands of %s!",
-            "%s met physics, and its messenger was %s!"
+            "%s couldn't handle the deadly power of %s!",
+            "%s suffered massive physical traume because of %s!",
+            "%s met death, and its messenger was %s!"
         },
 
         [DamageEntity.Bullet] = { 
-            "%s was mowed down by %s!",
-            "%s was shredded by %s!",
-            "%s was peppered with bullets by %s!",
+            "%s was shot down by %s!",
+            "%s was killed by %s!",
+            "%s was shot with bullets by %s!",
         },
 
         [DamageEntity.Explosion] = { 
@@ -99,8 +99,8 @@ function Killfeed:CreateKillStrings()
         },
 		[DamageEntity.Vehicle] = {
 			"%s was run over by %s!",
-			"%s got caught in a roadrage by %s!",
-			"%s was killed in a carmageddon by %s!"
+			"%s was killed in a roadrage by %s!",
+			"%s played Carmageddon with %s!"
 		}
     }
 end
